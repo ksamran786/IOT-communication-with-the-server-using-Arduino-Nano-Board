@@ -5,15 +5,14 @@ communication link between the IOT device and the sever. In this task, the
 light-dependent resistor (LDR) is setup with aka Pretzel IoT WiFi Board with
 a built in ESP 8266 WiFi module to send light-level of an environment to the
 server via the internet. In order to connect light-dependent resistor (LDR)
-with the Pretzel board, the other components are also required. In figure 1,
-LDR is connected to the Arduino based NanoESP Board using breadboard.
+with the Pretzel board, the other components are also required. LDR is connected to the Arduino based NanoESP Board using breadboard.
 Also, LDR is used with 10kOhms resistor to form a voltage divider. Since the
 divider output is analogue, it is connected with the analogue pin on the
 Arduino based NanoESP Board to get the light-level information of an
 environment. The analogue to digital converter on the Arduino based
-NanoESP converts the analogue data into 12-bits digital data accordingly. Figure 1: WLAN Communications in the IOT setup
+NanoESP converts the analogue data into 12-bits digital data accordingly.
 Similarly, the 5V DC voltage input as well as GND are used from the same Arduino based NanoESP Board. At the end,
-the setup is connected to the power supply through micro USB wire. The setup is shown in the figure 1.
+the setup is connected to the power supply through micro USB wire.
 
 Arduino Sketch Description: The Arduino sketch is created using Arduino IDE and is compiled on the Arduino
 based NanoESP Board accordingly. Firstly, the serial communication channel is created between the Arduino Nano and
